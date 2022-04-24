@@ -1,0 +1,61 @@
+.form-container {
+  .field {
+    label {
+      font-size: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  }
+  .education {
+    .dropdown-sec {
+      background-color: #fff;
+      border: 1px solid #333;
+      padding: 3px;
+      border-radius: 10px;
+
+      .dropdown {
+        position: relative;
+        user-select: none;
+
+        .dropdown-btn {
+          padding: 10px;
+          background-color: #fcfcfc;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .dropdown-content {
+          left: -3px;
+          position: absolute;
+          top: 112%;
+          background-color: #fff;
+          width: 101%;
+          .dropdown-item {
+            padding: 10px;
+            cursor: pointer;
+            transition: all 0.4s;
+            border: 1px solid #333;
+            border-radius: 10px;
+            margin-bottom: 4px;
+            &:hover {
+              background-color: #f4f4f4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.add {
+  padding: 20px;
+}
